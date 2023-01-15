@@ -5,36 +5,47 @@ body {
 
 h1 {
   font-weight: 700;
-  color: hsl(218, 44%, 22%);
+  color: hsl(218, 44%, 22%); 
 }
 
 p {
     font-weight: 400;
     color: hsl(220, 15%, 55%);
-    font-size: 21px;
+    font-size: 21em;
+    margin-bottom: 15px: opacity:0.5;
+
 }
 
-.inner-square {
+p,h1 { 
+    padding: 0 15px; 
+    margin-top:15px; 
+    font-size-15px;
+} 
+
+.main {
     background-color: hsl(0, 0%, 100%);
-    padding: 15px;
-    border-radius: 10px;
+    padding: 15em;
+    border-radius: 10em;
     text-align: center;
-    width: 375px;
-    height: 600px;
+    max-width: 375em;
+    height: 600em;
     margin: auto;
-    margin-top: 200px;
+    margin-top: 200em;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
 }
 
 img {
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 10em;
 }
 
-.attributes {
+.footer {
     font-family: "Outfit", sans-serif;
     font-weight: 400;
     color: hsl(218, 44%, 22%);
-    font-size: 12px;
+    font-size: 12em;
     text-align: center;
 }
 
